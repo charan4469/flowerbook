@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>My Bookings | FlowerBook</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- ==========================================
+         NAVBAR
+    =========================================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+
+            <span>🌸</span>
+
+            FlowerBook
+
+        </div>
+
+
+        <nav>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="index.html#flowers">
+                Flowers
+            </a>
+
+            <a href="index.html#about">
+                About
+            </a>
+
+            <a href="index.html#contact">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <div class="nav-actions">
+
+            <button
+                class="cart-btn"
+                onclick="window.location.href='cart.html'"
+            >
+
+                🛒
+
+                <span id="cart-count">
+                    0
+                </span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==========================================
+         PAGE HEADER
+    =========================================== -->
+
+    <section class="page-header">
+
+        <div>
+
+            <p class="small-title">
+                🌸 FLOWERBOOK
+            </p>
+
+            <h1>
+                My <span>Bookings</span>
+            </h1>
+
+            <p>
+                View your beautiful flower orders
+                and delivery details.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         ORDER HISTORY
+    =========================================== -->
+
+    <main class="order-history-section">
+
+        <div
+            id="order-history-container"
+            class="order-history-container"
+        >
+
+            <div class="loading">
+
+                Loading your bookings... 🌸
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+
+    <footer>
+
+        <div class="footer-logo">
+
+            🌸 FlowerBook
+
+        </div>
+
+
+        <p>
+            Fresh flowers. Beautiful moments.
+        </p>
+
+
+        <p class="copyright">
+
+            © 2026 FlowerBook.
+            All rights reserved.
+
+        </p>
+
+    </footer>
+
+
+    <script src="js/order-history.js"></script>
+
+</body>
+
+</html>

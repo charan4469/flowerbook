@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FlowerBook | Fresh Flowers Delivered</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span>🌸</span>
+            FlowerBook
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#flowers">Flowers</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <button
+                class="cart-btn"
+                onclick="window.location.href='cart.html'"
+            >
+                🛒 <span id="cart-count">0</span>
+            </button>
+
+            <button
+                class="login-btn"
+                onclick="window.location.href='login.html'"
+            >
+                Login
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                ✨ Fresh flowers. Beautiful moments.
+            </p>
+
+            <h1>
+                Send a little
+                <span>happiness.</span>
+            </h1>
+
+            <p class="hero-text">
+                Discover beautiful fresh flowers and stunning bouquets
+                delivered straight to your doorstep.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#flowers" class="primary-btn">
+                    Explore Flowers →
+                </a>
+
+                <a href="#about" class="secondary-btn">
+                    Our Story
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-decoration">
+            🌷
+        </div>
+
+    </section>
+
+
+    <!-- CATEGORIES -->
+
+    <section class="categories">
+
+        <div class="section-heading">
+
+            <p>EXPLORE OUR COLLECTION</p>
+
+            <h2>
+                Flowers for every
+                <span>occasion</span>
+            </h2>
+
+        </div>
+
+        <div class="category-container">
+
+            <div class="category-card">
+                <div>🌹</div>
+                <h3>Roses</h3>
+                <p>Love & Romance</p>
+            </div>
+
+            <div class="category-card">
+                <div>🌻</div>
+                <h3>Sunflowers</h3>
+                <p>Joy & Happiness</p>
+            </div>
+
+            <div class="category-card">
+                <div>🌷</div>
+                <h3>Tulips</h3>
+                <p>Elegant & Fresh</p>
+            </div>
+
+            <div class="category-card">
+                <div>💐</div>
+                <h3>Bouquets</h3>
+                <p>Special Moments</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FLOWERS -->
+
+    <section class="flowers-section" id="flowers">
+
+        <div class="section-heading">
+
+            <p>OUR BESTSELLERS</p>
+
+            <h2>
+                Freshly picked
+                <span>for you</span>
+            </h2>
+
+        </div>
+
+        <div
+            id="flower-container"
+            class="flower-container"
+        >
+
+            <div class="loading">
+                Loading beautiful flowers... 🌸
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+        <div class="about-icon">
+            🌸
+        </div>
+
+        <div>
+
+            <p class="small-title">
+                WHY FLOWERBOOK?
+            </p>
+
+            <h2>
+                Flowers that speak
+                <span>from the heart.</span>
+            </h2>
+
+            <p>
+                We believe flowers have the power to make ordinary moments
+                extraordinary. That's why we carefully select fresh flowers
+                and create beautiful arrangements for every special occasion.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer id="contact">
+
+        <div class="footer-logo">
+            🌸 FlowerBook
+        </div>
+
+        <p>
+            Fresh flowers. Beautiful moments.
+        </p>
+
+        <p class="copyright">
+            © 2026 FlowerBook. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
